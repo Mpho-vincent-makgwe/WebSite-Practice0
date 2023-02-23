@@ -1,25 +1,56 @@
 *{
-    padding: 0;
-    marging: 0;
-    outline: 0;
-    box-sizing: border-box;
-    height: flex-start;
+    background-origin: padding-box;
+    height: flex;
     width: flex;
-    
-}
-background: linear-gradient(90deg,#d2001a,#7462ff, lightblue)
-.container{
+    background: radial-gradient( 50deg,#12f3f7, #f819f8,red) 
+    background-repeat: no-repeat;
+    background: feGaussianBlur
     
 }
 
+
 header{
-    border-block:;
-    accent-color: #fdeafd;
+    border-block-color: #12f3f7;
+    color: #f819f8;
 }
 
 h1{
     
 }
-h2{
 
+em{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.0{
+    
+}
+
+strong{
+    transition: solid;
+    color: green ;
+}
+aside{
+    font-size: 20pt;
+    border-left-width: 0dvh;
+    border-radius: 100%;
+    padding-left: 0%;
+    padding-top: 0%;
+    writing-mode: sideways-lr;
+}
+
+main{
+    font-display: flex;
+    position: flex;
+
+}
+
+h2 {
+text-align: inherit;
+position: Right;
+}
+title{
+    position: inherit;
 }
