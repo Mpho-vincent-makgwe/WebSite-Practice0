@@ -1,0 +1,7 @@
+{
+    "application.experimental.rendererProfiling": true,
+    "github-actions.workflows.pinned.refresh.enabled": true,
+    "codegpt.apiKey": "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",
+    "intellicodeApiExamples.loggingLevel": "ALL",
+    "CodeGPT.apiKey": "Cohere"
+}
