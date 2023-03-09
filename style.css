@@ -2,32 +2,40 @@
     background-origin: padding-box;
     height: flex;
     width: flex;
-    background: radial-gradient( 50deg,#12f3f7, #f819f8,red) 
-    background-repeat: no-repeat;
-    background: feGaussianBlur
-    
+    background: radial-gradient( 50deg,#12f3f7, #f819f8,red);
+}
+
+html{
+    margin: 0 ;
+    padding: 0;
 }
 
 
-header{
-    border-block-color: #12f3f7;
-    color: #f819f8;
+header { 
+    color: aliceblue; 
+    background-image: url(https://th.bing.com/th/id/R.15127aed5ea2f5136707431b451ec80d?rik=NPZehWITabGtLw&riu=http%3a%2f%2fpmscxz.com%2fwp-content%2fuploads%2f2018%2f11%2f06%2f06043815556.jpg&ehk=NldZL%2bZl54RgC1E7xlcNxbz0EGmZ4k0TmBgoUukanhg%3d&risl=&pid=ImgRaw&r=0);
+    position: justify;
+    text-align: center;
+    background-size: fit-content;
 }
 
-h1{
-    
+
+.pic{ 
+    max-width: 100%;
+    max-height: 100%; 
+    box-sizing:border-box;
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+    border: solid 2px pink;
+    border-radius: 100px;
 }
 
 em{
-    color: rgb(0, 0, 0);
+    color: green;
     text-align: center;
-    
 }
 
-.vero{
-    color: pink
-}
-    
 
 strong{
     transition: solid;
@@ -45,13 +53,16 @@ aside{
 main{
     font-display: flex;
     position: flex;
-
 }
 
-h2 {
-text-align: inherit;
-position: Right;
+.heding {
+    color: rgb(238, 169, 213);
+    text-align: inherit;
+    position: Right;
 }
-title{
-    position: inherit;
+
+h1 {
+    color: #ffc7ff;
+    text-align: inherit;
+    position: Right;
 }
